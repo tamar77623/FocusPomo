@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>FocusPomo</title>
+</head>
+<body class="bg-blue-950">
+    <div class="container bg-slate-900 my-28 mx-auto text-center p-10 rounded-xl font-bold font-sans transform">
+        <div class="inline-flex items-center gap-1 bg-slate-700 text-white p-2 px-5 rounded-3xl">
+        <h4 id="time">50</h4>
+        <span>:</span>
+         <span id="span">59</span>
+        </div>
+        <button id="start" class="block my-16 mx-auto bg-indigo-700 w-80 h-10 text-white font-bold cursor-pointer rounded-xl hover:bg-indigo-900 duration-500">start</button>
+        <button id="pause" class="hidden my-16 mx-auto bg-indigo-700 w-80 h-10 text-white font-bold cursor-pointer rounded-xl hover:bg-indigo-900 duration-500">Pause</button>
+        <button id="rest" class="hidden my-16 mx-auto bg-indigo-700 w-80 h-10 text-white font-bold cursor-pointer rounded-xl hover:bg-indigo-900 duration-500">Time reset</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html> 
